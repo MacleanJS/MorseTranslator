@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <script type="module" src="./JS/script.js" defer></script>
+        <title>Morse Code</title>
+    </head>
+    <body>
+        <div class="text-to-morse">
+            <h3>Input Text</h3>
+            <h6>Characters allowed: A-Z, 0-9, !.,</h6>
+            <textarea
+                placeholder="Type your text here to translate it to morse."
+                type="text"
+                class="input-text input-field"
+            ></textarea>
+            <button class="translate-text translate-btn">Translate!</button>
+            <div class="output-field">
+                <h2 class="text-to-morse-output output-text"></h2>
+            </div>
+        </div>
+        <div class="morse-to-text">
+            <h3>Input Morse</h3>
+            <h6>Characters allowed: '.', '·', '-', '_' and '/'</h6>
+            <textarea
+                placeholder="Type your morse here to translate it to text. Available characters are '.', '·', '-', and '_'. Please separate letters by spaces, and words by ' / '"
+                type="text"
+                class="input-morse input-field"
+            ></textarea>
+            <button class="translate-morse translate-btn">Translate!</button>
+            <div class="output-field">
+                <h2 class="morse-to-text-output output-text"></h2>
+            </div>
+        </div>
+    </body>
+</html>

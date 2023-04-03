@@ -1,0 +1,88 @@
+* {
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.text-to-morse {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    width: 40%;
+    height: 40vw;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    transition: border-color 0.5s ease-in-out;
+}
+
+.text-to-morse:hover {
+    border-color: coral;
+}
+
+.morse-to-text {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    width: 40%;
+    height: 40vw;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    transition: border-color 0.5s ease-in-out;
+}
+.morse-to-text:hover {
+    border-color: coral;
+}
+
+.input-field {
+    margin: 1%;
+    width: 90%;
+    background-color: rgb(224, 224, 224);
+    height: 20%;
+    resize: none;
+}
+
+.output-field {
+    margin: 1%;
+    width: 90%;
+    background-color: rgb(224, 224, 224);
+    height: 20%;
+    color: black;
+    font-size: 10px;
+}
+.translate-btn {
+    height: 10%;
+    width: 20%;
+    margin: 1%;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: border-color 0.4s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.translate-btn:hover {
+    border-color: coral;
+    cursor: pointer;
+    color: coral;
+}
+h3 {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    font-size: 40px;
+}
+h6 {
+    margin: 1%;
+}
