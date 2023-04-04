@@ -4,7 +4,7 @@ const trans = (x, morse) => {
         return morse[x];
     }
     throw new Error(
-        `Character "${x}" is not allowed. Please only input characters including "-", ".", "_", separating letters by spaces and words by "/"`
+        `Character is not allowed. Please only input characters including "-", ".", "_", separating letters by spaces and words by "/"`
     );
 };
 

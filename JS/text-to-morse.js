@@ -4,7 +4,7 @@ const trans = (x, text) => {
         return text[x];
     }
     throw new Error(
-        `Character "${x}" is not allowed. Please only input characters from a-z, 1-9, and spaces`
+        `Character is not allowed. Please only input characters from a-z, 1-9, and spaces`
     );
 };
 
